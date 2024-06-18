@@ -6,7 +6,7 @@ ENV DEBUG=false
 
 ARG JPP_VERSION="v0.3.1"
 RUN curl -J -L -o /tmp/jpp.tar.gz \
-      "https://github.com/snicker/juicepassproxy/archive/refs/tags/${JPP_VERSION}.tar.gz" \
+      "https://github.com/troydangerfield/juicepassproxy/archive/refs/tags/${JPP_VERSION}.tar.gz" \
     && mkdir /tmp/jpp \
     && tar zxvf \
       /tmp/jpp.tar.gz \
